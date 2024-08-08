@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		80C700012C62D46900B9905C /* CalendarioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C700002C62D46900B9905C /* CalendarioUITestsLaunchTests.swift */; };
+		80C7000E2C62DA0800B9905C /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7000D2C62DA0800B9905C /* CalendarView.swift */; };
+		80C700102C6445B500B9905C /* DateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7000F2C6445B500B9905C /* DateViewModel.swift */; };
 		80C7FFE42C62D46700B9905C /* CalendarioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7FFE32C62D46700B9905C /* CalendarioApp.swift */; };
-		80C7FFE62C62D46700B9905C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7FFE52C62D46700B9905C /* ContentView.swift */; };
 		80C7FFE82C62D46900B9905C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C7FFE72C62D46900B9905C /* Assets.xcassets */; };
 		80C7FFEB2C62D46900B9905C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C7FFEA2C62D46900B9905C /* Preview Assets.xcassets */; };
 		80C7FFF52C62D46900B9905C /* CalendarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7FFF42C62D46900B9905C /* CalendarioTests.swift */; };
@@ -35,9 +36,10 @@
 
 /* Begin PBXFileReference section */
 		80C700002C62D46900B9905C /* CalendarioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80C7000D2C62DA0800B9905C /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		80C7000F2C6445B500B9905C /* DateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewModel.swift; sourceTree = "<group>"; };
 		80C7FFE02C62D46700B9905C /* Calendario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C7FFE32C62D46700B9905C /* CalendarioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioApp.swift; sourceTree = "<group>"; };
-		80C7FFE52C62D46700B9905C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80C7FFE72C62D46900B9905C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C7FFEA2C62D46900B9905C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80C7FFF02C62D46900B9905C /* CalendarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				80C7FFE32C62D46700B9905C /* CalendarioApp.swift */,
-				80C7FFE52C62D46700B9905C /* ContentView.swift */,
 				80C7FFE72C62D46900B9905C /* Assets.xcassets */,
 				80C7FFE92C62D46900B9905C /* Preview Content */,
+				80C7000D2C62DA0800B9905C /* CalendarView.swift */,
+				80C7000F2C6445B500B9905C /* DateViewModel.swift */,
 			);
 			path = Calendario;
 			sourceTree = "<group>";
@@ -257,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C7FFE62C62D46700B9905C /* ContentView.swift in Sources */,
+				80C700102C6445B500B9905C /* DateViewModel.swift in Sources */,
 				80C7FFE42C62D46700B9905C /* CalendarioApp.swift in Sources */,
+				80C7000E2C62DA0800B9905C /* CalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
